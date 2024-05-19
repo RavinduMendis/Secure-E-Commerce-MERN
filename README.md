@@ -57,3 +57,17 @@ Now all the dependencies are installed and the environment variables are set up,
     ```
 
 Open your browser and navigate to `http://localhost:3000` to see the application running.
+
+## Running on DOCKER (optional)
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/RavinduMendis/Secure-E-Commerce-MERN.git
+    ```
+2. Navigate to the Directory:
+    ```sh
+    cd Secure-E-Commerce-MERN
+    ```
+3. build and run the Docker
+    ```sh
+    docker-compose up -d 
+    ```
