@@ -67,7 +67,14 @@ Open your browser and navigate to `http://localhost:3000` to see the application
     ```sh
     cd Secure-E-Commerce-MERN
     ```
-3. build and run the Docker
+3. change the environmental variable (.env) backend:
+    ```sh
+    MONGODB_URI = ("mongodb://mongo-db/<database-name>")
+    TOKEN_SECRET_KEY = "your key"
+    FRONTEND_URL = "http://react-ui:3000/"
+    ```
+4. change the /Secure-E-Commerce-MERN/frontend/common/index.js backend domain as "http://node-api:8080"
+5. build and run the Docker
     ```sh
     docker-compose up -d 
     ```
