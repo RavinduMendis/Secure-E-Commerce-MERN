@@ -10,6 +10,10 @@ Make sure you have the following installed:
 - npm (Node package manager)
 - Docker (optional)
 
+setup the .env files in the,
+    backend/.env
+    frontend/.env
+
 ## Installation Process
 
 1. Clone the repository:
