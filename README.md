@@ -1,6 +1,6 @@
 # Full Stack Secure E-Commerce MERN App
 
-This is a full stack secure e-commerce application built using the MERN stack (MongoDB, Express.js, React.js, Node.js)
+This is a full stack secure e-commerce application built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
 ## Getting Started
 
@@ -11,25 +11,35 @@ Make sure you have the following installed:
 - Docker (optional)
 
 ## Installation Process
- ```sh
-    https://github.com/RavinduMendis/Secure-E-Commerce-MERN.git
-    cd backend
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/RavinduMendis/Secure-E-Commerce-MERN.git
+    ```
+2. Navigate to the backend directory and install dependencies:
+    ```sh
+    cd Secure-E-Commerce-MERN/backend
     npm install
     ```
- ```sh
-    cd frontend
+3. Navigate to the frontend directory and install dependencies:
+    ```sh
+    cd ../frontend
     npm install
     ```
- ```sh
-    cd frontend
-    npm install
-    ```
-now all the dependencies are installed. now you can run the project.
- ```sh
-    cd backend
+
+Now all the dependencies are installed and you can run the project.
+
+## Running the Application
+
+1. Start the backend server:
+    ```sh
+    cd ../backend
     npm start
     ```
- ```sh
-    cd frontend
+2. Start the frontend development server:
+    ```sh
+    cd ../frontend
     npm start
     ```
+
+Open your browser and navigate to `http://localhost:3000` to see the application running.
