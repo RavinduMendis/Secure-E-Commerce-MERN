@@ -1,3 +1,16 @@
-# Full Stack E-Commerce MERN App
+# Full Stack Secure E-Commerce MERN App
 
-This is a full stack e-commerce application built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
+This is a full stack secure e-commerce application built using the MERN stack (MongoDB, Express.js, React.js, Node.js)
+
+## Getting Started
+
+Make sure you have the following installed:
+
+- Node.js
+- npm (Node package manager)
+- Docker (optional)
+
+## Installation Process
+ ```sh
+    git clone 
+    ```
