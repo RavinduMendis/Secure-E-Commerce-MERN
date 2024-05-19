@@ -14,5 +14,22 @@ Make sure you have the following installed:
  ```sh
     https://github.com/RavinduMendis/Secure-E-Commerce-MERN.git
     cd backend
-
+    npm install
+    ```
+ ```sh
+    cd frontend
+    npm install
+    ```
+ ```sh
+    cd frontend
+    npm install
+    ```
+now all the dependencies are installed. now you can run the project.
+ ```sh
+    cd backend
+    npm start
+    ```
+ ```sh
+    cd frontend
+    npm start
     ```
