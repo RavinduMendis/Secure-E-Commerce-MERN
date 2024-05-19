@@ -1,5 +1,9 @@
 # Full Stack Secure E-Commerce MERN App
 
+## student IDs
+IT21822612 - Mendis H.R.M.
+IT21831904 - Weerasinghe K.M.
+
 This is a full stack secure e-commerce application built using the MERN stack (MongoDB, Express.js, React.js, Node.js).
 
 ## Getting Started
