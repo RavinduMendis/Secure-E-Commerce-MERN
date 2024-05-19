@@ -12,5 +12,7 @@ Make sure you have the following installed:
 
 ## Installation Process
  ```sh
-    git clone 
+    https://github.com/RavinduMendis/Secure-E-Commerce-MERN.git
+    cd backend
+
     ```
