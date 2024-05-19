@@ -10,10 +10,6 @@ Make sure you have the following installed:
 - npm (Node package manager)
 - Docker (optional)
 
-setup the .env files in the,
-    backend/.env
-    frontend/.env
-
 ## Installation Process
 
 1. Clone the repository:
@@ -31,7 +27,21 @@ setup the .env files in the,
     npm install
     ```
 
-Now all the dependencies are installed and you can run the project.
+4. Setup environment variables:
+
+    - **Backend**: Create a `.env` file in the `backend` directory with the following content:
+        ```plaintext
+        MONGODB_URI="your_mongodb_connection_string"
+        TOKEN_SECRET_KEY="your_secret_key"
+        FRONTEND_URL="http://localhost:3000"
+        ```
+
+    - **Frontend**: Create a `.env` file in the `frontend` directory with the following content:
+        ```plaintext
+        REACT_APP_CLOUD_NAME_CLOUDINARY = ddwo8iuhl
+        ```
+
+Now all the dependencies are installed and the environment variables are set up, you can run the project.
 
 ## Running the Application
 
