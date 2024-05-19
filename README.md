@@ -1,6 +1,6 @@
 # Full Stack Secure E-Commerce MERN App
 
-## student IDs
+## Group members
 #### IT21822612 - Mendis H.R.M.
 #### IT21831904 - Weerasinghe K.M.
 
