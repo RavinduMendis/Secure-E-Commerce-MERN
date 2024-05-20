@@ -13,7 +13,7 @@ Make sure you have the following download and installed:
 - Node.js
 - npm (Node package manager)
 - Docker (optional)
-- Assets - https://drive.google.com/file/d/1xisQD3kGFY5TpujGenKmyVpgkBI1KWpa/view?usp=sharing (/frontend/src/)
+- Assets - https://drive.google.com/file/d/1XTGjJb7dJk-Kys9zocqezdsmNGkHjEvD/view?usp=sharing (/frontend/src/)
 - mongosh (optional - if run through docker)
 
 ## Installation Process
