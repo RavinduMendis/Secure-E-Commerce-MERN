@@ -5,7 +5,7 @@ services:
     build: ./frontend
     container_name: react-ui
     ports:
-      -"3000:3000"
+      - "3000:3000"
     stdin_open: true
     tty: true
     depends_on:
@@ -18,19 +18,19 @@ services:
     container_name: node-api
     restart: always
     ports:
-      -"8080:8080"
+      - "8080:8080"
     stdin_open: true
     tty: true
     depends_on:
       - database
     networks:
       - mern-network
-    
+
   database:
     image: mongo
     container_name: mongo-db
     ports:
-      -"27017:27017"
+      - "27017:27017"
     volumes:
       - /home/sss_assignment/mongo-backup:/data/db
     networks:
