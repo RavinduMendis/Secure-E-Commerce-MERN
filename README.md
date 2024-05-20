@@ -81,7 +81,7 @@ Open your browser and navigate to `http://localhost:3000` to see the application
     TOKEN_SECRET_KEY = "your key"
     FRONTEND_URL = "http://<host-IP>:3000/"
     ```
-4. change the /Secure-E-Commerce-MERN/frontend/common/index.js backend domain as "http://<host-IP>:8080"
+4. change the /Secure-E-Commerce-MERN/frontend/common/index.js backend domain as "http://host-IP:8080"
 5. build and run the Docker
     ```sh
     docker-compose up -d 
