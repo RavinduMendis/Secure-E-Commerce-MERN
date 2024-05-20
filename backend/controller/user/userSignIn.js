@@ -44,7 +44,6 @@ async function userSignInController(req, res) {
         // Set HTTPOnly cookie with the JWT token
         res.cookie("token", token, {
             httpOnly: true,
-            secure: true,
             maxAge: 1000 * 60 * 60 * 8, // 8 hours
             sameSite: 'Strict' // Protects against CSRF
         }).status(200).json({
